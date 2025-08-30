@@ -1,0 +1,46 @@
+.cont{
+    display: flex;
+    gap: 40px;
+    margin-left: 150px;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: url(https://media.cntraveler.com/photos/5fc6818f3cfe1de2cab79372/master/pass/Amsterdam-GettyImages-840603854.jpg);
+    background-size: contain;
+    
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7gY5waBtBcg1DkDSkKtSpsS2ioFAPZCRBFA&s);
+    background-size: contain;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8W2NWbpDKWdDnqKwD59jpWuqEGV9vXQsDA&s);
+    background-size: contain;
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTln7aZYKBU15TuazQvn15m0IYk-u6P35wwig&s);
+    background-size: contain;
+}
+.box1:hover{
+    transform: scale(2);
+}
+.box2:hover{
+    transform: scale(2);
+}
+.box3:hover{
+    transform: scale(2);
+}
+.box4:hover{
+    transform: scale(2);
+}
